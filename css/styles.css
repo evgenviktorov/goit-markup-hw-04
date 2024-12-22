@@ -99,7 +99,6 @@ img {
   gap: 40px;
 }
 .item-nav-list {
-  position: relative;
 }
 .item-nav-link {
   font-weight: 500;
@@ -110,6 +109,7 @@ img {
   display: block;
   padding-top: 24px;
   padding-bottom: 24px;
+  position: relative;
 }
 
 .item-nav-link:hover,
