@@ -126,8 +126,11 @@ img {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  color: #404bbf;
   display: block;
+}
+
+.item-nav-link:active {
+  color: #404bbf;
 }
 
 .header-adr {
