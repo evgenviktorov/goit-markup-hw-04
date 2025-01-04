@@ -99,6 +99,7 @@ img {
   gap: 40px;
 }
 .item-nav-list {
+  color: #404bbf;
 }
 .item-nav-link {
   font-weight: 500;
@@ -127,10 +128,6 @@ img {
   background-color: #404bbf;
   border-radius: 2px;
   display: block;
-}
-
-.item-nav-link:active {
-  color: #404bbf;
 }
 
 .header-adr {
