@@ -301,6 +301,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 .container-team {
@@ -325,6 +326,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons-link:hover,
@@ -393,7 +395,7 @@ img {
 }
 .footer-page .logo-style {
   display: inline-block;
-  masrgin-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-page .logo-style-accent {
   color: #f4f4fd;
@@ -406,5 +408,18 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
+
+.footer-page .container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contetnt {
+  margin-right: 120px;
+}
+
+.footer-social {
+}
+
 /* #endregion Section Footer ==================================================== */
 /* EV */
