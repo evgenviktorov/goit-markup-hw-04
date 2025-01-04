@@ -117,6 +117,19 @@ img {
   color: #404bbf;
 }
 
+.item-nav-link::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  color: #404bbf;
+  display: block;
+}
+
 .header-adr {
   font-style: normal;
 }
