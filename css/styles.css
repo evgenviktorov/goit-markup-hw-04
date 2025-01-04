@@ -313,6 +313,8 @@ img {
   gap: 24px;
 }
 .social-icons-item {
+  width: 40px;
+  height: 40px;
 }
 
 .social-icons-link {
@@ -327,8 +329,12 @@ img {
 
 .social-icons-link:hover,
 .social-icons-link:focus {
+  background-color: #404bbf;
 }
 
+.social-icons {
+  fill: #f4f4fd;
+}
 /* #endregion Section Team ==================================================== */
 
 /* #region Section Portfolio ==================================================== */
